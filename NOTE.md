@@ -23,3 +23,5 @@ ts-node -v
 # 実行はコマンドパレット（Ctrl+Shift+P）を開いて、run codeを選択するか
 # 実行するソースを開いて、ショートカット(Ctrl+Alt+N)
 
+# ビルドツールの選定
+[JavaScriptビルドツールの整理 各ツールの機能と依存関係](https://zenn.dev/nakaakist/articles/86457bf2908379)
