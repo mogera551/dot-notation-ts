@@ -1,12 +1,25 @@
+# VSCodeのターミナルを使うときは、cmdを使用する。powershellは、npxを打つ必要がある 
 
-# create package.json
-```terminal
+# 初期化、package.jsonとpackage-lock.jsonを生成
+```cmd
 npm init
 
 ```
 
-# creat .gitignore file and edit it
+# .gitignoreファイルの設置
 ```text:.gitignore
 /node_modules/
 
 ```
+# typescriptとts-nodeのインストール
+```cmd
+npm install -g typescript ts-node
+tsc -v
+ts-node -v
+```
+
+# VSCodeの拡張機能CodeRunnerをインストールする
+
+# 実行はコマンドパレット（Ctrl+Shift+P）を開いて、run codeを選択するか
+# 実行するソースを開いて、ショートカット(Ctrl+Alt+N)
+
